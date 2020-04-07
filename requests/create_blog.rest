@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "title": "Testiblogi REST clientistä 3",
+    "author": "Erkko Mäkinen",
+    "url": "google.fi",
+    "likes": 10
+}
